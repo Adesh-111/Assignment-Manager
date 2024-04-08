@@ -1,0 +1,16 @@
+<%- include("header.ejs") %>
+<body>
+    <form action="/submit" method="POST" class="form">
+       <label for="name">Name :</label>
+       <input type="text" name="name" placeholder="Enter your name" required><br>
+       <label for="email">Email :</label>
+       <input type="email" name="email" placeholder="Enter your email" required><br>
+       <label for="topic">Assignment Topic :</label>
+       <input type="text" name="topic" placeholder="Enter your Assignment Topic" required><br>
+       <label for="content">Content</label>
+       <textarea name="content" cols="30" rows="10" placeholder="Write your Assignment here..." required></textarea><br>
+       <em>🚩Use strong tag for Headings and br tag fo seperation</em>
+       <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,154 @@
+.title,
+h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+body {
+    background-color: #8CB9BD;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    resize: vertical;
+    /* Allow vertical resizing */
+}
+
+.form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content-container p {
+    margin: 100px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.update {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.update a {
+    background-color: #4CAF50;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.update .delete {
+    background-color: rgb(173, 82, 82);
+}
+
+.delete-title {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 82, 82);
+    text-align: center;
+    height: 100px;
+    align-items: center;
+}
+
+.delete-button {
+    width: 150px;
+    text-align: center;
+    background-color: rgb(21, 56, 100);
+
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.d-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.new-topic {
+    margin-left: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width : 600px) {
+    .content-get {
+        font-size: 10px;
+    }
+}

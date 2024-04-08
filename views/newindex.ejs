@@ -1,0 +1,16 @@
+<%- include("header.ejs")%>
+<%- include("navbar.ejs") %>
+
+<div class="content-container">
+    <h1 class="new-title">Assignment written by <%=name %></h1>
+    <h2 class="new-topic">Topic of the Assignment is <%=topic %></h2>
+    <p class="content-get"><%- content %></p>
+</div>
+
+<div class="edit-container">
+    <div class="update">
+        <a href="/update">Update</a>
+        <a href="/delete" class="delete">Delete</a>
+    </div>
+</div>
+<%- include("footer.ejs") %>
